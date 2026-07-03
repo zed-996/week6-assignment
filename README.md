@@ -4,12 +4,18 @@
 Build a deep learning model that can remove noise from images using an autoencoder architecture, trained and evaluated on the MNIST handwritten digits dataset.
 
 ## Dataset
-Uses the **mnist_png** dataset — MNIST digits stored as 28×28 grayscale PNG files organized by label:
-```
-mnist_png/
-├── training/   (60,000 images across folders 0-9)
-└── testing/    (10,000 images across folders 0-9)
-```
+
+Download the MNIST PNG dataset from Kaggle:
+https://www.kaggle.com/datasets/awsaf49/mnist-dataset
+
+Extract it so that your folder structure is:
+
+Parent Folder/
+├── mnist_png/
+│   ├── training/
+│   └── testing/
+└── myProject/
+    └── denoising_autoencoder.ipynb
 
 ## Approach
 We train autoencoders to **denoise** images:
