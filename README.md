@@ -9,14 +9,14 @@ Download the MNIST PNG dataset from Kaggle:
 https://www.kaggle.com/datasets/awsaf49/mnist-dataset
 
 Extract it so that your folder structure is:
-
+```
 Parent Folder/
 ├── mnist_png/
 │   ├── training/
 │   └── testing/
 └── myProject/
     └── denoising_autoencoder.ipynb
-
+```
 ## Approach
 We train autoencoders to **denoise** images:
 1. **Add Gaussian noise** to clean MNIST images (noise factor = 0.5)
