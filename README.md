@@ -89,4 +89,4 @@ myProject/
 | Encoding Dim (FFNN) | 32 |
 
 ## Why MSE Loss?
-Since we're comparing pixel values between the denoised output and original clean images, MSE (Mean Squared Error) is the natural choice — it's a regression task measuring per-pixel reconstruction quality.
+Since we're comparing pixel values between the denoised output and original clean images, MSE (Mean Squared Error) is the natural choice - it's a regression task measuring per-pixel reconstruction quality.
