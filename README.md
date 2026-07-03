@@ -69,7 +69,6 @@ myProject/
 │   ├── FFNN_Autoencoder_denoising.png
 │   ├── TransposeCNN_Autoencoder_denoising.png
 │   └── UpsampledCNN_Autoencoder_denoising.png
-└── venv/                        # Virtual environment
 ```
 
 ## Key Hyperparameters
